@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset = "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+<link rel="stylesheet" href="views/visuales.css">
+
+
+
+<title>Marvels Api</title> <!--se seleccina el titulo de la pestaña-->
+
+</head>
+
+<body background="fondos/marvel.jpg"><!--se coloca un fondo de pantalla-->
+  <h1 class="main-title">Marvels api heroes</h1> <!--titulo de la pestaña-->
+    <div>
+    <h3 class="buscador">Busca tu heroe</h1> <!--titulo del buscador-->
+         <input type="search" id="search" placeholder="Nombre"> <!--se recepta el ingreso del usuario por teclado-->
+     </div>
+
+      <div><!--se establecen botones de navegacion-->
+        <button id="demo" autofocus onclick="botonLess()" title="boton" id="boton"> <- </button>
+        <button id="demo" autofocus onclick="botonPlus()" title="boton" id="boton"> -> </button>
+      </div>
+
+      <div id= "content" class="ed-container"></div><!--se muestra el contenido-->
+
+      <div><!--se establecen botones de navegacion-->
+        <button id="demo" autofocus onclick="botonLess()" title="boton" id="boton"> <- </button>
+        <button id="demo" autofocus onclick="botonPlus()" title="boton" id="boton"> -> </button>
+      </div>
+
+  <!--se datan los scripts de trabajo para que funcione la pagina-->
+   <script src="rutas/md5.js"></script>
+   <script src="rutas/busqueda.js"></script>
+   <script src="rutas/personajesListado.js"></script>
+   
+</body>
